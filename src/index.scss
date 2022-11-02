@@ -1,0 +1,19 @@
+$dark: #151515;
+
+* {
+  color: #fff;
+  box-sizing: border-box !important;
+  border: none;
+  background: none;
+  &:focus {
+    outline: none;
+  }
+}
+
+body {
+  background-color: $dark !important;
+}
+header,
+main {
+  padding: 0 20px;
+}
